@@ -3,7 +3,5 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: rgb(54, 54, 54);
-}
+
 /* Add your global styles below */

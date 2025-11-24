@@ -132,3 +132,36 @@ section.home-second-section{
     height: 100%;
     
 }
+
+.home-third-section{
+    padding: 100px;
+    gap: 40px;
+    background-color: #f0f6ff;
+}
+.home-third-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.home-third-section .cards-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-third-section .cards-container .card{
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
