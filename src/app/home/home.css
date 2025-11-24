@@ -165,3 +165,46 @@ section.home-second-section{
     text-align: center;
     gap: 15px;
 }
+.home-fourth-section{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home-fourth-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.home-fourth-section .img-container{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-fourth-section .img-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+}
+.home-fourth-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: start;
+}
+.home-fourth-section p{
+    font-size: 16px;
+    color: #555;
+    text-align: start;
+}
+.home-fourth-section span{
+    font-size: larger;
+    font-weight: bolder;
+    color: #1298E3;
+    text-align: start;
+}
