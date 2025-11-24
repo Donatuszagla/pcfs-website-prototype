@@ -166,7 +166,7 @@ section.home-second-section{
     gap: 15px;
 }
 .home-fourth-section{
-    padding: 100px;
+    padding: 100px 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -176,7 +176,7 @@ section.home-second-section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+    align-items: start;
     text-align: center;
     width: 50%;
 }
@@ -207,4 +207,20 @@ section.home-second-section{
     font-weight: bolder;
     color: #1298E3;
     text-align: start;
+}
+.home-fifth-section{
+    padding: 100px;
+    gap: 40px;
+    background-color: #0A387E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-fifth-section button{
+    background-color: #F3FE0E;
+    color: #0A387E;
+    border: 2px solid #F3FE0E;
 }
